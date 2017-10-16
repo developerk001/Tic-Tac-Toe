@@ -1,0 +1,44 @@
+header {
+  background-color: #27ae60;
+  color: #f2f2f2;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+}
+header h2 {
+  font-family: "Merienda", cursive;
+}
+header ul,
+header ul li {
+  margin: 0;
+  padding: 0;
+}
+header ul li{
+  list-style-type: none;
+  font-size: 1.5em;
+  background-color: #378e50;
+  margin: .3em;
+  border-radius: 4px;
+}
+header ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+header ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+section#main .jumbotron {
+  background-color: #fff;
+}
+section#main table {
+  border-radius: 4px;
+}
+section#main table tr td {
+  font-family: "Merienda", cursive;
+  width: 1.2em;
+  height: 1.2em;
+  font-size: 8em;
+  text-align: center;
+  cursor: pointer;
+}
